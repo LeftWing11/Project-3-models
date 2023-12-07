@@ -18,8 +18,6 @@ df['Aus Real GDP mom%'] = df["Aus Real GDP mom%"].astype(float)
 df['Aus Nominal GDP mom%'] = df["Aus Nominal GDP mom%"].astype(float)
 
 
-                                   
-
 
 # setting the y-variables
 df['S&P/ASX 200 - Energy Returns'] = df["S&P/ASX 200  Energy   ( TR)m"].pct_change()
